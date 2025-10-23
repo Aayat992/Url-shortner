@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>verifyOTP</title>
+</head>
+<body>
+    <p>Enter Your OTp</p>
+    <p>enter the otp sent to this email <%=email%> </p>
+    <form action="/user/verifyOtp" method="POST">
+        <input type="hidden" name="email" value="<%=email%>" >
+<input type="text" name="otp" placeholder="Enter OTP" required>
+<button type="submit">VERIFYY</button>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,6 @@
+{"level":"error","message":"this is error during signup","service":"user-service"}
+{"level":"error","message":"this is error during signup","service":"user-service"}
+{"level":"error","message":"this is error during signup","service":"user-service"}
+{"level":"error","message":"this is error during signup","service":"user-service"}
+{"level":"error","message":"this is error during signup","service":"user-service"}
+{"level":"error","message":"this is error during signup path.join is not a function","service":"user-service","stack":"TypeError: path.join is not a function\n    at createUser (G:\\URL-shortner\\controller\\signupController.js:32:24)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
