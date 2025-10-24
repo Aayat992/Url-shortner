@@ -28,7 +28,7 @@ return res.render("signup",{error:null} )
 })
 
 router.get("/login",(req,res)=>{
-    return res.render("Login", {error:null, message :null})
+    return res.render("login", {error:null, message :null})
 })
 router.get('/forgotPassword',(req,res)=>{
     return res.render('forgotPassword')
